@@ -7,8 +7,7 @@ public class IntegerStack {
     }
 
     public int push(int number) {
-        numbers[size++] = number;
-        return numbers[size];
+        return numbers[size++] = number;
     }
 
 
